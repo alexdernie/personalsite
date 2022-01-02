@@ -161,3 +161,10 @@ h1 {
 }
 
 }
+
+@media (max-width: 500px) {
+
+    #background-img {
+        margin-right: -35px;
+    }
+}
