@@ -1,0 +1,147 @@
+@import url('https://rsms.me/inter/inter.css');
+/* due to stroke issue on homepage title, from: https://rsms.me/inter/ */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Inter";
+    font-weight: 900;
+}
+
+#background-img {
+    height: 100%;
+    background-image: url("assets/hom_bkgrnd_1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#container {
+    height: 100%;
+    position: relative;
+}
+
+#hom-title {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 12vw;
+    width: 100%;
+}
+
+#hom-title-text {
+    font-size: 7.5vw;
+    font-family: "Inter";
+    font-weight: 900;
+    color: #46A471;
+    letter-spacing: 0.05em;
+
+}
+
+#home-title-text-stroke {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #46A471;
+}
+
+#hom-subtitle {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#hom-subtitle-text {
+    font-weight: 200;
+    font-size: 1.8vw;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+#hom-subtitle-slash {
+    font-weight: 500;
+    font-size: 2vw;
+    flex-grow: 0;
+}
+
+#hom-logo img {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    align-content: center;
+}
+
+.hom-flexbox {
+    flex: 1;
+}
+
+#hom-body-container {
+    margin: 20px;
+    padding-bottom: 100px;;
+}
+
+#hom-button-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.hom-button {
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+#hom-title {
+    top: 65%;
+    left: 6vw;
+}
+
+#hom-title-text {
+    font-size: 50px;
+}
+
+#hom-subtitle-text {
+    font-size: 4vw;
+}
+
+#hom-subtitle-slash {
+    font-size: 23px;
+}
+
+#hom-logo img {
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    align-content: center;
+}
+
+
+}
