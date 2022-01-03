@@ -78,18 +78,19 @@ h1 {
     flex-grow: 0;
 }
 
-#header {
+#hom-logo-container {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    height: 50px;
+    height: 45px;
     /* background-color: chocolate; */
     margin: 0px -20px;
     margin-top: -65px;
-    padding-top: 10px;
+    padding-top: 17.5px;
     /* position: absolute;
     bottom: 30px;
     align-content: center; */
+    z-index: 1;
 }
 
 #hom-logo-img {
@@ -97,6 +98,15 @@ h1 {
     height: 25px;
     width: 100%;
     
+}
+
+#hom-header {
+    background-color: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    height: 60px;
+    margin: 0px -50px;
 }
 
 .hom-flexbox {
