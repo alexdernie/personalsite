@@ -45,7 +45,7 @@ h1 {
     font-size: 7.5vw;
     font-family: "Inter";
     font-weight: 900;
-    color: #46A471;
+    color: #2A9D8F;
     letter-spacing: 0.05em;
 
 }
@@ -53,7 +53,7 @@ h1 {
 #home-title-text-stroke {
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #46A471;
+    -webkit-text-stroke-color: #2A9D8F;
 }
 
 #hom-subtitle {
@@ -107,6 +107,36 @@ h1 {
     top: -1px;
     height: 60px;
     margin: 0px -50px;
+    box-shadow: 0 0 10px 3px rgba(65, 65, 65, 0.15);
+}
+
+.hom-header-block {
+    margin: 0 50px;
+}
+
+#hom-header-linkedin {
+    width: 20px;
+    float: right;
+    line-height: 60px;
+}
+
+.hom-header-block img {
+    vertical-align: middle;
+}
+
+.hom-header-block button {
+    font-family: "Inter";
+    border: 1px solid;
+    padding: 7px 12px;
+    background-color: #022B3A;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+#hom-header-contact {
+    float: left;
+    line-height: 60px;
 }
 
 .hom-flexbox {
@@ -146,7 +176,7 @@ h1 {
 
 .hom-button:hover {
     box-shadow: 0 0 10px 3px rgba(65, 65, 65, 0.15);
-    background-color: rgb(255, 165, 132);
+    background-color: #ff9670;
     font-weight: 600;
 }
 
