@@ -196,11 +196,7 @@ h1 {
 .hom-button:hover {
     box-shadow: 5px 5px 0px 0px rgba(240, 236, 87, 0.8);
     background-color: var(--coral);
-    text-shadow:
-    -0.2px -0.2px 0 var(--blue),
-    0.2px -0.2px 0 var(--blue),
-    -0.2px 0.2px 0 var(--blue),
-    0.2px 0.2px 0 var(--blue);
+    color: #fffdbf;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -o-transition: all .3s;
