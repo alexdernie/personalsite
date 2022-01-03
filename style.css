@@ -10,6 +10,7 @@ body, html {
     font-size: 16px;
     font-family: "Work Sans", sans-serif;
     overflow-x: hidden;
+    color: #022B3A;
 }
 
 h1 {
@@ -104,9 +105,9 @@ h1 {
     background-color: #fff;
     position: -webkit-sticky;
     position: sticky;
-    top: -1px;
+    top: 0px;
     height: 60px;
-    margin: 0px -50px;
+    margin: 2px -50px;
     box-shadow: 0 0 10px 3px rgba(65, 65, 65, 0.15);
 }
 
@@ -116,7 +117,7 @@ h1 {
 
 #hom-header-linkedin {
     width: 20px;
-    float: right;
+    float: left;
     line-height: 60px;
 }
 
@@ -135,8 +136,12 @@ h1 {
 }
 
 #hom-header-contact {
-    float: left;
+    float: right;
     line-height: 60px;
+}
+
+#hom-header-contact button {
+    cursor: pointer;
 }
 
 .hom-flexbox {
@@ -167,17 +172,34 @@ h1 {
 
 .hom-button {
     text-align: center;
-    border: 1px solid;
+    border: 1px solid transparent;
     padding: 10px;
     border-radius: 5px;
-    transition: box-shadow .3s;
+    transition: 0.3s;
     cursor: pointer;
+    background-color: #F0EC57;
 }
 
 .hom-button:hover {
-    box-shadow: 0 0 10px 3px rgba(65, 65, 65, 0.15);
+    box-shadow: 5px 5px 0px 0px rgba(240, 236, 87, 0.8);
     background-color: #ff9670;
-    font-weight: 600;
+    text-shadow:
+    -0.2px -0.2px 0 #022B3A,
+    0.2px -0.2px 0 #022B3A,
+    -0.2px 0.2px 0 #022B3A,
+    0.2px 0.2px 0 #022B3A;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    border: 1px solid transparent;
+}
+
+#hom-contact-anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
 }
 
 #hom-contact-container {
