@@ -259,9 +259,8 @@ h1 {
 @media (max-width: 500px) {
 
     #background-img {
-        margin-right: -35px;
         background-attachment:fixed;
-        background-position: right -30px bottom 0px;
+        background-position: right -45px bottom 0px;
 
     }
 
