@@ -148,7 +148,6 @@ h1 {
 }
 
 #hom-header-linkedin {
-    width: 15px;
     float: right;
     line-height: 60px;
 }
@@ -260,6 +259,7 @@ h1 {
     grid-column-gap: 10px;
 }
 
+
 }
 
 @media (max-width: 500px) {
@@ -272,5 +272,9 @@ h1 {
 
     #hom-button-container {
         margin: 50px 0px;
+    }
+    
+    #hom-body-container {
+    margin: 0px 25px;
     }
 }
