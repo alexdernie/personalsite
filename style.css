@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
 
 :root{
-    --blue: #022B3A;
+    --blue: #104B64;
     --yellow: #F0EC57;
     --grey: #E8E9F3;
     --coral: #FF9670;
@@ -90,19 +90,24 @@ h1 {
     flex-grow: 0;
 }
 
-#hom-logo-container {
+#hom-header-text-container {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
     height: 45px;
-    /* background-color: chocolate; */
     margin: 0px -20px;
     margin-top: -65px;
     padding-top: 17.5px;
-    /* position: absolute;
-    bottom: 30px;
-    align-content: center; */
     z-index: 1;
+    text-align: center;
+}
+
+#hom-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 20px;
 }
 
 #hom-logo-img {
@@ -126,29 +131,30 @@ h1 {
     margin: 0 50px;
 }
 
-#hom-header-linkedin {
-    width: 20px;
-    float: left;
-    line-height: 60px;
-}
 
 .hom-header-block img {
     vertical-align: middle;
 }
 
-.hom-header-block button {
-    font-family: "Inter";
-    border: 1px solid;
-    padding: 7px 12px;
-    background-color: var(--blue);
-    color: #fff;
-    border-radius: 5px;
-    font-weight: 300;
+#hom-header-logo img {
+    height: 20px;
+    vertical-align: middle;
 }
 
-#hom-header-contact {
+
+#hom-header-logo {
+    float: left;
+    line-height: 60px;
+}
+
+#hom-header-linkedin {
+    width: 15px;
     float: right;
     line-height: 60px;
+}
+
+#hom-header-linkedin img {
+    width: 30px;
 }
 
 #hom-header-contact button {
