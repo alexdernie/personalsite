@@ -281,6 +281,13 @@ h1 {
 
     }
 
+    #small {
+        height: 100vh;
+        display: flex;
+        position: absolute;
+        right: -50px;
+    }
+
     #hom-button-container {
         margin: 50px 0px;
     }
