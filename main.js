@@ -9,3 +9,8 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+
+// var floating-img =document.getElementById("floating-img")
+// window.addEventListener("scroll", function(){
+//     floating-img.style.Right = +this.window.pageYOffset+"px";
+// })
