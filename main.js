@@ -1,7 +1,5 @@
-alert('Hello World');
-
-var i = 0;
-var txt = 'Marketing & Operations Specialist';
+var i = -1;
+var txt = 'Marketing & Automations Specialist';
 var speed = 50;
 
 function typeWriter() {
@@ -11,5 +9,3 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
-
-window.onload = typeWriter();
