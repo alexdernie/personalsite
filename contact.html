@@ -4,21 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="alternate icon" href="/favicon.ico">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff8a01">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome.</title>
 </head>
 <body>
-    <div id="hom-contact-container">
-        <h1>
-            contact form
-        </h1>
-        <form action="">
-            <label for="fname">Your name:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
-            <label for="email">Your email:</label><br>
-            <input type="text" id="lname" name="lname" value="Email"><br><br>
-            <input type="submit" value="Submit">
-        </form>
+    <div id="hom-body-container">
+        <div>
+            <div id="hom-header-text-container">
+                <div id="hom-header-text">
+                    home
+                </div>
+            </div>
+            <div id="hom-header">
+                <div class="hom-header-block" id="hom-header-linkedin">
+                    <a href="https://www.linkedin.com/in/alexdernie/" target="_blank">
+                        <i class="fa fa-linkedin-square" style="font-size: 36px; color: #022B3A; text-decoration: none;"></i>
+                    </a>
+                </div>
+                <div class="hom-header-block" id="hom-header-logo">
+                    <img src="assets/AD_logo_v1_blue.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="sticky-header-padding"></div>
+        <div id="contact-header-container">
+            <img id="contact-header-img" src="assets/contact/cover_highres.png" alt="">
+        </div>
+        <div id="contact-container">
+            <h1>
+                contact form
+            </h1>
+            <form action="">
+                <label for="fname">Your name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="email">Your email:</label><br>
+                <input type="text" id="lname" name="lname" value="Email"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        </div>
     </div>
 </body>
 </html>

@@ -100,16 +100,20 @@ h1 {
     flex-grow: 0;
 }
 
+
+/* ------- STICKY HEADER BAR ---------- */
+
 #hom-header-text-container {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
     height: 45px;
-    margin: 0px -20px;
+    margin: auto;
     margin-top: -65px;
     padding-top: 17.5px;
-    z-index: 1;
     text-align: center;
+    width: 50%;
+    z-index: 1;
 }
 
 #hom-header-text {
@@ -120,6 +124,7 @@ h1 {
     font-size: 20px;
     /* text-shadow: 0px 0px 0px #fff; */
     color: #0d5269;
+    z-index: 1;
 }
 
 #hom-logo-img {
@@ -139,8 +144,17 @@ h1 {
     box-shadow: 0 0 10px 3px rgba(65, 65, 65, 0.15);
 }
 
+.hom-header-text-container{
+    z-index: -1;
+}
+
 .hom-header-block {
     margin: 0 50px;
+}
+
+.hom-header-block a{
+    height: 50%;
+    width: 50%;
 }
 
 
@@ -161,7 +175,7 @@ h1 {
 
 #hom-header-linkedin {
     float: right;
-    line-height: 60px;
+    line-height: 72px;
 }
 
 #hom-header-linkedin img {
@@ -198,6 +212,9 @@ h1 {
     max-width: 600px;
     align-items: center;
 }
+
+
+/* -------- HOMEPAGE CONTENT --------- */
 
 .hom-button {
     text-align: center;
@@ -267,8 +284,17 @@ h1 {
 }
 
 
+/* ---------CONTACT PAGE CONTENT ------------ */
 
+#contact-header-container {
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+}
 
+#contact-header-img {
+    width: 100%;
+}
 
 
 
