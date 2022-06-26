@@ -14,41 +14,52 @@
     <title>Welcome.</title>
 </head>
 <body>
+    
     <div id="hom-body-container">
-        <div>
-            <div id="hom-header-text-container">
-                <div id="hom-header-text">
-                    home
+            <div>
+                <div id="hom-header-text-container">
+                    <div id="hom-header-text">
+                        home
+                    </div>
                 </div>
-            </div>
-            <div id="hom-header">
-                <div class="hom-header-block" id="hom-header-linkedin">
-                    <a href="https://www.linkedin.com/in/alexdernie/" target="_blank">
-                        <i class="fa fa-linkedin-square" style="font-size: 36px; color: #022B3A; text-decoration: none;"></i>
+                <div id="hom-header">
+                    <div class="hom-header-block" id="hom-header-linkedin">
+                        <a href="https://www.linkedin.com/in/alexdernie/" target="_blank">
+                            <i class="fa fa-linkedin-square" style="font-size: 36px; color: #022B3A; text-decoration: none;"></i>
+                        </a>
+                    </div>
+                    <a href="index.html">
+                        <div class="hom-header-block" id="hom-header-logo">
+                            <img src="assets/AD_logo_v1_blue.svg" alt="">
+                        </div>
                     </a>
                 </div>
-                <div class="hom-header-block" id="hom-header-logo">
-                    <img src="assets/AD_logo_v1_blue.svg" alt="">
-                </div>
             </div>
-        </div>
-        <div id="sticky-header-padding"></div>
-        <div id="contact-header-container">
-            <img id="contact-header-img" src="assets/contact/cover_highres.png" alt="">
-        </div>
-        <div id="contact-container">
-            <h1>
-                contact form
-            </h1>
-            <form action="">
-                <label for="fname">Your name:</label><br>
-                <input type="text" id="fname" name="fname" value="John"><br>
-                <label for="email">Your email:</label><br>
-                <input type="text" id="lname" name="lname" value="Email"><br><br>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-        </div>
+            <div id="sticky-header-padding"></div>
+            <div id="contact-header-container">
+                <img id="contact-header-img" src="assets/contact/cover_highres.png" alt="">
+            </div>
+            <div id="contact-container">
+                <h1 id="contact-title">
+                    contact form
+                </h1>
+                <form action="">
+                    <label for="fname">Name</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Your name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" placeholder="Email"><br>
+                    <label for="msg">How can I help?</label><br>
+                    <textarea rows = "3" cols = "50" name = "description" placeholder="Your message"></textarea>
+                    <br>
+                    <div id="contact-submit-btn-container">  
+                        <div class="bouncy-button">
+                            <span class="bouncy-button-front">
+                                <input type="submit" value="SEND" id="contact-submit-btn">
+                            </span>
+                        </div>
+                    </div>  
+                </form>
+            </div>
     </div>
 </body>
 </html>

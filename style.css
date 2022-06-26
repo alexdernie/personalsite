@@ -22,6 +22,7 @@ body, html {
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    overflow-x: hidden;
     /* overflow-y: scroll; */
 }
 
@@ -112,7 +113,7 @@ h1 {
     height: 45px;
     margin: auto;
     margin-top: -65px;
-    padding-top: 17.5px;
+    padding-top: 12px;
     text-align: center;
     width: 50%;
     z-index: 1;
@@ -127,6 +128,11 @@ h1 {
     /* text-shadow: 0px 0px 0px #fff; */
     color: #0d5269;
     z-index: 1;
+    border: var(--blue) solid 1px;
+    width: 100px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 #hom-logo-img {
@@ -219,7 +225,7 @@ h1 {
 
 /* -------- HOMEPAGE CONTENT --------- */
 
-.hom-button {
+.bouncy-button {
     text-align: center;
     line-height: 20px;
     font-size: 1.2em;
@@ -244,9 +250,9 @@ h1 {
     border: 1px solid transparent;
 } */
 
-.hom-button-front {
+.bouncy-button-front {
     display: block;
-    padding: 20px 10px;
+    padding: 0px 10px;
     border-radius: 5px;
     background: var(--yellow);
     color: #000;
@@ -257,7 +263,11 @@ h1 {
     transform: translateY(-5px);
 }
 
-.hom-button:hover .hom-button-front {
+.bouncy-button-hom-inner{
+    padding: 20px 10px;
+}
+
+.bouncy-button:hover .bouncy-button-front {
     transform: translateY(-9px);
     transition:
     transform
@@ -265,12 +275,10 @@ h1 {
     cubic-bezier(.3, .7, .4, 1.5);
 }
   
-.hom-button:active .hom-button-front {
+.bouncy-button:active .bouncy-button-front {
     transform: translateY(-1px);
     transition: transform 34ms;
 }
-
-
 
 
 #hom-contact-anchor {
@@ -289,6 +297,11 @@ h1 {
 
 /* ---------CONTACT PAGE CONTENT ------------ */
 
+#contact-container{
+    width: 600px;
+    margin: auto;
+}
+
 #contact-header-container {
     width: 100vw;
     position: relative;
@@ -299,6 +312,56 @@ h1 {
     width: 100%;
     display: block;
 }
+
+#contact-title {
+    padding-top: 30px;
+}
+
+form label {
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+form input, textarea {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: #000 solid 1px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+form input[type=text] {
+    width: 100%;
+}
+
+textarea{
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
+}
+
+textarea::-webkit-input-placeholder{
+    text-align: left;
+ }
+
+#contact-submit-btn-container{
+    text-align: center;
+    width: 200px;
+}
+
+#contact-submit-btn {
+     margin: auto 0px;
+     cursor: pointer;
+     font-family: "Inter";
+     font-weight: bold;
+     border: none;
+     background: none;
+     padding: 10px 10px;
+     letter-spacing: 2px;
+ }
 
 
 
